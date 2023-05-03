@@ -1,0 +1,166 @@
+.sfacheckbox.skin-nova input[type="checkbox"]{
+    visibility: hidden;;
+}
+/* SLIDE THREE */
+.sfacheckbox.skin-nova {
+    width: 80px;
+    height: 26px;
+    background: #eee;
+
+    border-radius: 10px;
+    position: relative;
+
+    box-shadow: 0 0 0 1px rgba(0,20,0,0.1);
+
+    box-sizing: border-box;
+    display: block;
+}
+.sfacheckbox.skin-nova *{
+
+    box-sizing: border-box;
+}
+
+.sfacheckbox.skin-nova:after {
+    content: 'OFF';
+    font: 11px/26px "Open Sans", Arial, sans-serif;
+    color: #000;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+
+.sfacheckbox.skin-nova:before {
+    content: 'ON';
+    font: 13px/26px Arial, sans-serif;
+    color: #009118;
+    position: absolute;
+    left: 10px;
+    font-weight: 700;
+    z-index: 0;
+}
+
+.sfacheckbox.skin-nova label {
+    display: block;
+    width: 34px;
+    height: 20px;
+
+    border-radius: 10px;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+
+    background: #aaa;
+}
+
+.sfacheckbox.skin-nova.active > label{
+    /*left: 43px;*/
+}
+.sfacheckbox.skin-nova > input[type="checkbox"]:checked + label{
+    background-color: green !important;
+    left: 43px;
+}
+
+form.mainsettings {
+    padding: 50px 50px;
+    background-color: #1D2327;
+    color: white;
+}
+
+.wp-core-ui .button-primary {
+    padding: 10px 215px;
+    background: #158014;
+    border-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+form.mainsettings h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: white !important;
+}
+
+.setting h4 {
+    margin: 12px 0px!important;
+    padding: 0px !important;
+    font-size: 20px!important;
+}
+
+textarea.textfield {
+    width: 500px !important;
+    height: 128px !important;
+}
+
+.sfa-select-wrapper .sfa-select-wrapper-head {
+    position: relative;
+    height: 30px;
+    color: #ffffff !important;
+    border: 1px solid #bbbbbb ;
+    cursor: pointer;
+    background-color: #020202 !important;
+    width: 100%;
+    display: block;
+    vertical-align: top;
+}
+
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #000000 !important;
+    border-color: #000000 !important;
+    color: #fff;
+    border: 1px solid white !important;
+}
+
+.box, .box1 {
+   display: flex;
+}
+.box3 {
+    display: flex;
+ }
+
+ .box3 .setting {
+    width: 22%;
+}
+
+.box .setting {
+    width: 50%;
+}
+
+.mainsl {
+    width: 50%;
+}
+.htmlbox {
+    width: 50%;
+}
+
+h5.setting-label {
+    text-align: right;
+    opacity: 0.5;
+    position: relative;
+    top: 50px;
+}
+
+.version-pro .setting {
+    opacity: 0.5;
+}
+
+.version-pro:before {
+    content: "Pro Feature";
+    position: absolute;
+    font-size: 19px;
+    z-index: 5;
+    color: #cfa305;
+    margin-top: -13px;
+    font-weight: 700;
+    font-style: oblique;
+}
